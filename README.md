@@ -1,5 +1,22 @@
 # AuthGuard AI
 
+> AI-powered authentication anomaly detection for defensive cybersecurity.
+
+![Focus](https://img.shields.io/badge/Focus-AI%20Cybersecurity-purple)
+![ML](https://img.shields.io/badge/ML-Anomaly%20Detection-blue)
+![Model](https://img.shields.io/badge/Model-Isolation%20Forest-green)
+![API](https://img.shields.io/badge/API-FastAPI-009688)
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB)
+![Testing](https://img.shields.io/badge/Testing-pytest-green)
+![Container](https://img.shields.io/badge/Container-Docker-2496ED)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF)
+
+![Security](https://img.shields.io/badge/Security-CodeQL-red)
+![Dependencies](https://img.shields.io/badge/Dependencies-pip--audit-orange)
+![Updates](https://img.shields.io/badge/Updates-Dependabot-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 AuthGuard AI is a defensive machine-learning demo that detects anomalous authentication events. It uses synthetic telemetry so the repository can be developed and tested without exposing real user or security logs.
 
 ## Architecture
