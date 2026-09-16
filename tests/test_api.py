@@ -2,7 +2,6 @@ from fastapi.testclient import TestClient
 
 import authguard.api as api_module
 
-
 client = TestClient(api_module.app)
 
 
