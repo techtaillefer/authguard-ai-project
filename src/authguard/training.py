@@ -73,8 +73,8 @@ def train_model(
     metadata = {
         "project_version": __version__,
         "trained_at_utc": datetime.now(UTC).isoformat(),
-        "training_rows": int(len(baseline)),
-        "test_rows": int(len(X_test)),
+        "training_rows": len(baseline),
+        "test_rows": len(X_test),
         "feature_columns": FEATURE_COLUMNS,
         "metrics": {
             "precision": round(float(precision), 4),
